@@ -1,4 +1,4 @@
-## rsschool-cv
+## rsschool-cv ##
 # Victoria Golik #
 #### Junior Frontend Developer ####
 ### Contacts ###
