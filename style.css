@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+body{
+    font-family: 'Lora',sans-serif;
+    color: #3a3a3a;
+}
+h2{
+    text-align: center;
+}
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 15px;
+    width:60em;
+}
+
+.header{
+    text-align: center;
+}
+
+
+
+.block-left{
+    
+width: 350px;
+border: 1px solid blue;
+margin: 2px;
+}
+
+/* ! PHOTO */
+
+.photo{ 
+    padding-top: 15px;
+    background-color: lavender;  
+}
+.avatar{
+    background-color: lightcoral;
+    text-align: center;
+    padding: 5px;
+}
+.name{
+    
+    background-color: lawngreen;
+}
+
+.block-right{
+
+width: 600px;
+border: 1px solid blue;
+margin: 2px;
+    /* padding-left: 100px; */
+}
+
+/* ! CONTACTS */
+.citem{
+    padding: 10px;
+}
+
+/*! SKILLS */
+
+.parrent{
+    width: 150px;
+    height: 10px;
+    background: #f2f2f2;
+    margin: 5px;
+}
+.child{
+    height: 100%;
+    background: #5176a7;
+    border-bottom-right-radius: 10px;
+}
+.html{
+    width: 70%;
+}
+.css{
+    width: 55%;
+}
+.js{
+     width:40%;
+} 
+    
+ /*! FOOTER */
+.footer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #45a1ff;
+    color: rgb(255, 255, 255);
+}
+.fitem{
+    padding: 15px;
+    text-align: center;
+}
+.fitem span{
+    font-size: 1.3em;
+    margin-top: 20px;
+}
+.year{
+    font-size: 2em;
+}
+.logo {
+    width:100px;
+}
