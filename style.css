@@ -1,25 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap');
+
 body{
-    font-family: 'Lora',sans-serif;
+    font-family: 'Lora', serif;
+}
+
+h1, h2, h3, h4, h5, h6,{
+    margin:0;
+    font-family: 'Lora', serif;
 }
 
 h2{
     text-align: center;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+p{
+    margin:10px 0 10px;
 }
 
 a {
     color: beige !important;
     text-decoration:none;
-  }
+ }
+
 .container{
     position: relative;
     margin: 0 auto;
-    padding: 0 15px;
-    width:65em;
+    /* padding: 0 15px; */
+    width:1050px;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 .header{
     text-align: center;
+    font-family: inherit;
+    font-weight: 700;
+    font-size:22px;
     margin: 5px;
 }
 
@@ -29,10 +49,7 @@ a {
 }
 
 .block-left{
-/* margin-left: auto;
-margin-right: 0; */
-/* margin: 0px; */
-width: 20em;
+width: 350px;
 min-height: 100%;
 background-color: #1e3d59;
 color:beige;
@@ -48,40 +65,40 @@ padding-bottom: 30px;
     color:#3a3a3a;
 }
 .avatar{
-    text-align: center;
-    
+    text-align: center; 
+    margin:0;   
+}
+.avatar img{
+    height:400px;
+    margin:0;  
 }
 .name{
-    padding-bottom: 20px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 20px 0;
+    margin:0;
 }
 
 .block-right{
-/* float: right; */
 position: absolute;
   top: 0;
   right: 0;
-width: 45em;
+width: 700px;
 min-height: 100%;
 background-color: #f5f0e1;
-/* background-color: #ffc13b; */
 text-align: justify;
 box-sizing: border-box;
 padding: 30px;
-
-
-
 }
 
 
 /* ! CONTACTS */
-/* .conts{
-    display: flex;
-} */
 
 .citem{
   /*   background-color: bisque; */
     margin: auto;
-    padding: 10px;
+    padding: 0 10px;
     display: flex;
     align-items: center;
     /* margin-bottom: 5px; */
@@ -93,12 +110,34 @@ padding: 30px;
     
     /* margin-right: 10px; */
 }
-#disimg{
-    
+
+.contacts a:hover{
+    padding-left: 10px;
+    font-size: 22px;
+    animation-duration: 0.2;
 }
 
 /*! SKILLS */
 
+.skills{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    /* align-items: center; */
+}
+.skills ul{
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    padding: 0 0 0 80px;
+    font-size: 20px;
+    margin: 0;
+}
+.skitem{
+    line-height: 2;
+}
 .parrent{
     width: 150px;
     height: 10px;
