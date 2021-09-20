@@ -8,7 +8,9 @@
 * **GitHub**: [amoknira](https://github.com/amoknira)
 * **Discord**: @amoknira#9945
 ### About me ###
-After graduated the University I had understood that to be technology engineer as I thought earlier, since that time I started trying to search thing that I want to do. Almost two years of searching lead me to IT. In the school I were coding in Pascal and C++, the last was also the main language in my University. From time to time last 6-7 years I tryed to learn Java, but it couldn't hold my interest, so I deside to try myself in Frontend.
+I graduated electrotechnical University in 2019 as an engineer, however I always was interested in programming. I was acquainted with Pascal and C++ - we coded with it in the school and university, but some time later I started to learn Java and then have understood that I'm more attracted to web development.
+I have B2 level in English, I lived in british family in Eastbourne for a month and studied there in english-school with native teachers.
+My strengths are responsibility, fast learning anf team working asa well as problem solving.
 ### Education ###
 * 2014 - 2019 Saint Petersburg Electrotechnical University "LETI" Faculty of Electronics, Bachelor's Degree in Electronics and Nanoelectronics
 ### Courses ###
