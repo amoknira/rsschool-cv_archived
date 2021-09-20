@@ -19,6 +19,23 @@
             <h1>Junior Javascript Frontend Developer</h1>
         </header>
 
+    <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+    
+        <ul class="menu__box">
+          <li><a class="menu__item" href="#about">About Me</a></li>
+                <li><a class="menu__item" href="#education">Education</a></li>
+                <li><a class="menu__item" href="#contacts">Contacts</a></li>
+                <li><a class="menu__item" href="#code-example">Code</a></li>
+                <li><a class="menu__item" href="#video">Video</a></li>
+        </ul>
+      </div>
+
+
+
         <main class="main">
             <!--Основное содержимое страницы-->
             <div class="block-left">
@@ -32,7 +49,7 @@
                     <h2 class="name">Victoria Golik</h2>
                 </section>
 
-                <section>
+                <section id="contacts">
                     <h2>Contacts</h2>
                     <div class="conts">
                         <ul>
@@ -84,7 +101,7 @@
 
             <div class="block-right">
                 
-                <section>
+                <section id="about">
                     <h2>About me</h2>
                     <div>
                         <p>
@@ -103,7 +120,7 @@
                     </div>                   
                 </section>             
 
-                <section>
+                <section id="education">
                     <h2>Education</h2>
                     <div class="edu">2014 - 2019 <a href="https://etu.ru" title="ЛЭТИ">Saint Petersburg Electrotechnical University "LETI"</a> Faculty of Electronics, Bachelor's Degree in Electronics and Nanoelectronics</div>
                 </section>
@@ -138,7 +155,7 @@
                     </div>
                 </section>
                     
-                <section>
+                <section id="code-example">
                     <h2>Code example</h2>
                     <div class="code">
 <pre><code class="javascript"> String.prototype.toJadenCase = function () {
@@ -152,6 +169,10 @@
                     </div>
                 </section>
             </div>
+
+            <section id="video">
+
+            </section>
             
         </main>
         
