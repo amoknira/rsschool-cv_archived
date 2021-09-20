@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victoria Golik CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/cv-icon.png">
+    <link rel="stylesheet" href="highlight/styles/ir_black.css">
+    <link rel="preload" href="highlight/highlight.pack.js" as="script">
+    <script src="highlight/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+    <div class='container'>
+        <header class="header">
+            <!--  Шапка сайта -->
+            <h1>Junior Javascript Frontend Developer</h1>
+        </header>
+
+    <nav class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+    
+        <ul class="menu__box">
+          <li><a class="menu__item" href="#about">About Me</a></li>
+                <li><a class="menu__item" href="#education">Education</a></li>
+                <li><a class="menu__item" href="#contacts">Contacts</a></li>
+                <li><a class="menu__item" href="#code-example">Code</a></li>
+        </ul>
+      </nav>
+
+
+
+        <div class="inside-container">
+            <aside class="block-left">
+
+                <section class="photo">
+
+                    <figure class="avatar">
+                        <img  src="images/avatar.jpg" alt="My photo">
+                    </figure>
+
+                    <h2 class="name">Victoria Golik</h2>
+                </section>
+
+                <section id="contacts">
+                    <h2>Contacts</h2>
+                    <div class="conts">
+                        <ul>
+                            <li class="citem">
+                                <a href="mailto:keyforgen@gmail.com" title="mail"><img src="images/gmail-logo2.png" alt="gmail logo"></a>
+                                <a href="mailto:keyforgen@gmail.com" title="mail">keyforgen@gmail.com</a>
+                            </li>
+
+                            <li class="citem">
+                                <a href="https://t.me/amoknira" title="telegram"><img src="images/tg-logo2.png" alt="telegram logo"></a>
+                                <a href="https://t.me/amoknira" title="telegram">@amoknira</a>
+                            </li>
+
+                            <li class="citem">
+                                <img  src="images/logo_orange_discord.png" alt="discord logo" title="discord"> 
+                                <div>@amoknira#9945</div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            
+                <section >
+                    <h2>Skills</h2>
+                    <div class="skills">
+                        <ul>
+                            <li class="skitem">Git, GitHub</li>
+                            <li class="skitem">VSCode</li>
+                            <li class="skitem">Photoshop, GIMP</li>
+                            <li class="skitem">HTML
+                                <div class="parrent">
+                                    <div class="child html"></div>
+                                </div>
+                            </li>
+                            <li class="skitem">CSS
+                                <div class="parrent">
+                                    <div class="child css"></div>
+                                </div>
+                            </li>
+                            <li class="skitem">Javascript
+                                <div class="parrent">
+                                    <div class="child js"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </aside>
+
+
+            <main class="block-right">
+                
+                <section id="about">
+                    <h2>About me</h2>
+                    <div>
+                        <p>
+                            I graduated from university in 2019 as an Electronic Engineer, however I have always been interested in programming. I was familiar with Pascal and C++ - we coded in it in school and University, but when I later started learning Java, I understood that I'm more attracted to web development.
+                        </p>
+                        <p>
+                            I have a B2 level in English. I lived in the British family in Eastbourne for a month and studied there at an English school.
+                        </p>
+                        <p>
+                            My strengths are responsibility, fast learning and team working as well as problem solving.                        </p>
+                    </div>                   
+                </section>             
+
+                <section id="education">
+                    <h2>Education</h2>
+                    <div class="edu">2014 - 2019 <a href="https://etu.ru" title="ЛЭТИ">Saint Petersburg Electrotechnical University "LETI"</a> Faculty of Electronics, Bachelor's Degree in Electronics and Nanoelectronics</div>
+                </section>
+
+                <section>
+                    <h2>Languages</h2>
+                    <div class="eng">English: <span>B2 Upper-Intermediate</span></div>
+                </section>
+
+                <section>
+                    <h2>Courses</h2>
+                    <div class="courses">
+                        <ul>
+                            <li class="coitem">HTML and CSS Basics <a href="https://getmimo.com">mimo</a></li>
+                            <li class="coitem">HTML and CSS <a href="https://ru.code-basics.com">Code-basics</a></li>
+                            <li class="coitem">Java <a href="https://www.sololearn.com">Sololearn</a></li>
+                            <li class="coitem">JavaScript Basics <a href="https://www.sololearn.com">Sololearn</a></li>
+                            <li class="coitem">JavaScript/Front-end <a href="https://rs.school/js/">RS School</a> <span>in progress...</span></li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section>
+                <h2>Soft Skills</h2>
+                    <div class="sskills"> 
+                        <ul>
+                            <li class="ssitem">Critical Argumentation and Design Thinking <a href="https://itmo.ru/ru/">ITMO University</a></li>
+                            <li class="ssitem">Negotiations, Influence and Conflict Management <a href="https://itmo.ru/ru/">ITMO University</a></li>
+                            <li class="ssitem">Teamwork</li>
+                            <li class="ssitem">Quick learner</li>
+                        </ul>
+                    </div>
+                </section>
+                    
+                <section id="code-example">
+                    <h2>Code example</h2>
+                    <div class="code">
+<pre><code class="javascript"> String.prototype.toJadenCase = function () {
+    let words = this.split(" ");
+        for (let i = 0; i &lt; words.length; i++) {
+            words[i] = words[i][0].toUpperCase() + words[i].substr(1);
+            }
+        return words.join(" ");
+    }
+</code></pre>
+                    </div>
+                </section>
+            </main>
+
+
+            
+        </div>
+        
+<!-- Подвал сайта -->
+        <footer>
+            
+            <div class="fitem">
+                <a href="https://github.com/amoknira" title="GitHub"><img src="images/GitHub_Logo.png" alt="github logo" title="my GitHub"></a>
+            </div>
+
+            <h3 class="fitem-year">2021</h3>
+
+            <div class="fitem">
+                <a href="https://rs.school/js/"><img class='logo' src="images/logo-rsschool3.png" alt='rsschool logo' title="RS School - бесплатные курсы, проводимые сообществом разработчиков The Rolling Scopes"></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
