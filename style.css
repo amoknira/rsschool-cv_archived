@@ -59,7 +59,7 @@ width: 350px;
 background-color: #1e3d59;
 color:beige;
 padding-bottom: 30px;
-min-height: 1550px;
+min-height: 1600px;
 }
 
 /* ! PHOTO */
@@ -210,6 +210,7 @@ padding: 30px;
 }
 
 /*! FOOTER */
+
 .footer{
     position: relative;
     display: flex;
