@@ -59,7 +59,7 @@ width: 350px;
 background-color: #1e3d59;
 color:beige;
 padding-bottom: 30px;
-min-height: 1600px;
+min-height: 1550px;
 }
 
 /* ! PHOTO */
@@ -134,7 +134,7 @@ position: absolute;
   top: 0;
   right: 0;
 width: 750px;
-min-height: 800px;
+min-height: 500px;
 background-color: #fff;
 text-align: justify;
 box-sizing: border-box;
@@ -206,7 +206,7 @@ padding: 30px;
 /* ! CODE EXAMPLE */
 
 .code{
-    padding-bottom:30px;
+font-size: 16px; 
 }
 
 /*! FOOTER */
