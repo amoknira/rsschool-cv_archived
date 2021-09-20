@@ -4,8 +4,8 @@ body{
     font-family: 'Lora', serif;
 }
 
-h1,h2,h3{
-    margin:0;
+h1,h2{
+    margin:30px;
     font-family: 'Lora', serif;
 }
 
@@ -60,6 +60,31 @@ color:beige;
 padding-bottom: 30px;
 min-height: 1550px;
 }
+
+
+/* ! CONTACTS */
+
+.citem{
+    margin: auto;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.citem img{
+    padding-right: 10px;
+    height: 40px;
+}
+
+.conts a{
+    color: beige;
+}
+.conts a:hover{
+    padding-left: 10px;
+    font-size: 22px;
+    animation-duration: 500ms;
+}
+
 
 /* ! PHOTO */
 
@@ -141,28 +166,6 @@ padding: 30px;
 }
 
 
-/* ! CONTACTS */
-
-.citem{
-    margin: auto;
-    padding: 0 10px;
-    display: flex;
-    align-items: center;
-}
-
-.citem img{
-    padding-right: 10px;
-}
-
-.conts a{
-    color: beige;
-}
-.conts a:hover{
-    padding-left: 10px;
-    font-size: 22px;
-    animation-duration: 0.2;
-}
-
 
 
 /* ! EDUCATION */
@@ -183,7 +186,7 @@ padding: 30px;
 .courses a:hover{
     padding-left: 10px;
     font-size: 22px;
-    animation-duration: 0.2;
+    animation-duration: 500ms;
 }
 .courses span{
     font-style: italic;
@@ -218,6 +221,9 @@ font-size: 16px;
 .fitem{
     padding: 15px;
     text-align: center;
+}
+.fitem img{
+    height: 40px;
 }
 .year{
     font-size: 24px;
