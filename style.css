@@ -38,6 +38,8 @@ a {
     line-height: 1.5;
 }
 
+
+
 .header{
     text-align: center;
     font-family: inherit;
@@ -113,10 +115,10 @@ a {
     top: 70px;
   
     width: 300px;
-    height: 280px;
+    height: 230px;
   
     margin: 0;
-    padding: 80px 0;
+    padding: 50px 0;
   
     list-style: none;
   
@@ -146,7 +148,7 @@ a {
   }
 
 
-.main{
+.inside-container{
     position: relative;
     margin: 0 auto;
 }
@@ -161,7 +163,7 @@ width: 350px;
 background-color: #1e3d59;
 color:beige;
 padding-bottom: 30px;
-min-height: 1550px;
+min-height: 1500px;
 }
 
 
@@ -311,12 +313,12 @@ font-size: 16px;
 
 /*! FOOTER */
 
-.footer{
+footer{
     position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-height: 70px;
+    height: 70px;
     padding: 5px;
     background-color: #ff6e40;
     color: rgb(255, 255, 255);
@@ -328,9 +330,145 @@ font-size: 16px;
 .fitem img{
     height: 40px;
 }
-.year{
-    font-size: 24px;
-}
 .logo {
     width:100px;
 } 
+
+@media screen and (max-width:576px){
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+    .menu__box{
+    right: 0;
+    top: 0;
+    }
+    .menu__btn{
+    right: 0;
+    top: 0;  
+    }
+    .header{
+        max-width: 100%;
+        margin: 0;
+    }
+    .inside-container{
+        max-width: 100%;
+    }
+    .block-left{
+        max-width: 100%;
+    }
+    .block-right{
+        max-width: 100%;
+        margin-top: 1250px;
+        height: 2400px;
+    }
+    footer{
+    height: 70px;
+    position:fixed;
+    bottom: 0;
+    left:0;
+    max-width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+    width: 100%
+    }
+    .javascript{
+        overflow-x:scroll;
+        width: 278px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 500px;
+    }
+    .menu__box{
+    right: 0;
+    top: 0;
+    }
+    .menu__btn{
+    right: 0;
+    top: 0;  
+    }
+    .header{
+        width: 500px;
+        margin: 0;
+    }
+    .inside-container{
+        width: 500px;
+    }
+    .block-left{
+        width: 500px;
+        height: 500px;
+        
+    }
+    .block-right{
+        min-width: 500px;
+        margin-top: 1250px;
+        min-height: 500px;
+        position: absolute;
+        left:0px;
+    }
+    footer{
+    height: 70px;
+    position:fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+    width: 100%
+    }
+    .javascript{
+        overflow-x:scroll;
+        min-width: 420px;
+    }
+}
+
+
+@media screen and (max-width: 1100px){
+    
+    .header{
+        width: 750px;
+    }
+    .block-left{
+        min-height: 100em;
+    }
+    .block-right{
+        max-width: 400px;
+        margin-right: 350px;
+        min-height: 105em;
+    }
+    .menu__box{
+        right:365px;
+        top: 200px; 
+    }
+    .menu__btn{
+    right:365px;
+    top: 200px;  
+    }
+    .javascript{
+        overflow-x:scroll;
+        width: 278px;
+    }
+    footer{
+        height: 70px;
+        position:fixed;
+        bottom: 0;
+        left:0;
+        max-width: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+        width: 100%
+    }
+
+}
+
+@media screen and (max-width: 1500px){
+    .container{
+        max-width: 1100px;
+    }
+}
