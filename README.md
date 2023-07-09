@@ -1,1 +1,1 @@
-https://amoknira.github.io/rsschool-cv/
+https://amoknira.github.io/rsschool-cv_archived/
